@@ -5,47 +5,45 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+.header {
+    display: block;
+    margin: 120px auto -300px auto;
+}
+
 .first-look {
-    margin-top: 250px;
     width: 100%;
-    height: 700px;
+    height: 85vh;
     background-image: url("assets/wallpapers/1.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 160%;
 }
 
 .title {
     letter-spacing: 10px;
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .title > h1 {
     text-align: center;
     color: white;
-    font-size: 5.5em;
+    font-size: 15vw;
 }
 
 .subtitle {
-    position: absolute;
-    top: 28%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 800px;
+    margin: auto;
 }
 
 .subtitle > p {
     text-align: center;
     color: white;
-    font-size: 2em;
+    font-size: 3vw;
 }
 
 .breaker-wallpaper-1 {
-    margin: 20px 0;
+    margin: 25px 0;
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-image: url("assets/breakers/1.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -54,22 +52,47 @@ body {
 }
 
 .about-us {
+    margin-top: -75px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 50px;
+    align-items: center;
     width: 100%;
-    height: 950px;
+    height: 105vh;
     background-image: url("assets/wallpapers/2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
 }
 
+.container {
+    display: block;
+    width: 80%;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 2vh auto 2vh auto;
+}
+
+.container > h3 {
+    margin: 25px 10px;
+    font-size: 5vh;
+    color: white;
+    text-align: center;
+}
+
+.container > p {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 2.5vh;
+    color: white;
+    text-align: justify;
+    padding: 0 20px;
+}
+
 .breaker-wallpaper-2 {
-    margin: 20px 0;
+    margin: 25px 0;
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-image: url("assets/breakers/2.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -78,20 +101,48 @@ body {
 }
 
 .components {
-    display: flex;
-    justify-content: center;
     width: 100%;
-    height: 1000px;
+    height: 105vh;
+    margin: auto;
+}
+
+.container-full {
+    display: block;
+    width: 70%;
+    height: 35%;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 250px auto 0 auto;
+}
+
+.container-full > h3 {
+    letter-spacing: 5px;
+    margin-top: 50px;
+    font-size: 4vh;
+    color: white;
+    text-align: center;
+}
+
+.container-full > p {
+    margin-top: 10px;
+    font-size: 2.5vh;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.components-img {
+    width: 100%;
+    height: 800px;
     background-image: url("assets/wallpapers/3.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1200px;
+    background-size: 1000px;
 }
 
 .breaker-wallpaper-3 {
-    margin: 20px 0;
+    margin: 25px 0;
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-image: url("assets/breakers/3.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -101,7 +152,7 @@ body {
 
 .hard-drive {
     width: 100%;
-    height: 1000px;
+    height: 105vh;
     background-image: url("assets/wallpapers/4.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -110,14 +161,39 @@ body {
 
 .flex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    position: relative;
+    top: 10%;
+}
+
+.container-footer {
+    display: block;
+    width: 100%;
+    height: 20%;
+    position: relative;
+    left: 50%;
+    top: 17vh;
+    transform: translate(-50%, -50%);
+}
+
+.container-footer > p {
+    letter-spacing: 5px;
+    position: relative;
+    left: 50%;
+    top: 5vh;
+    transform: translate(-50%, -50%);
+    font-size: 2vh;
+    color: #3bcea8;
+    text-align: center;
+    padding: 0 20px;
 }
 
 .breaker-wallpaper-4 {
-    margin: 20px 0;
+    margin: 25px 0;
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-image: url("assets/breakers/4.jpg");
     background-attachment: fixed;
     background-position: center;
@@ -127,111 +203,147 @@ body {
 
 .contact {
     width: 100%;
-    height: 1000px;
+    height: 105vh;
     background-image: url("assets/wallpapers/5.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.container {
-    display: block;
-    width: 20%;
-    height: 70%;
-    background: rgba(0, 0, 0, 0.7);
-    margin: 100px;
-}
-
-.container-full {
-    display: block;
-    width: 60%;
-    height: 40%;
-    background: rgba(0, 0, 0, 0.7);
-    margin-top: 200px;
-}
-
-.container-full > p {
-    margin-top: 10px;
-    font-size: 3em;
-    color: white;
-    text-align: center;
-    padding: 0 20px;
-}
-
-.container-full > h3 {
-    letter-spacing: 5px;
-    margin-top: 50px;
-    font-size: 58px;
-    color: white;
-    text-align: center;
-}
-
-.container > h3 {
-    margin-top: 10px;
-    font-size: 58px;
-    color: white;
-    text-align: center;
-}
-
-.container > p {
-    margin-top: 10px;
-    font-size: 20px;
-    color: white;
-    text-align: justify;
-    padding: 0 20px;
-}
-
-.container-mini {
-    display: block;
-    width: 20%;
-    height: 45%;
-    background: rgba(0, 0, 0, 0.7);
-    margin: 150px 100px 100px 100px;
-}
-
-.container-mini > h3 {
-    margin-top: 10px;
-    font-size: 58px;
-    color: white;
-    text-align: center;
-}
-
-.container-mini > p {
-    margin-top: 10px;
-    font-size: 2em;
-    color: white;
-    text-align: center;
-    padding: 0 20px;
-}
-
-.container-footer {
-    display: block;
-    width: 60%;
-    height: 20%;
-    background: rgba(0, 0, 0, 0.7);
-    margin-top: 200px;
-    position: relative;
-    left: 50%;
-    top: -10%;
-    transform: translate(-50%, -50%);
-}
-
-.container-footer > p {
-    letter-spacing: 5px;
-    position: relative;
-    left: 50%;
-    top: 45%;
-    transform: translate(-50%, -50%);
-    font-size: 3em;
-    color: #3bcea8;
-    text-align: center;
-    padding: 0 20px;
+    background-size: 1000px;
 }
 
 .copy {
+    font-size: 2.5vw;
     text-align: center;
     margin: 20px auto;
     color: #999999;
     position: relative;
     bottom: -95%;
+}
+
+@media (min-width: 1050px) {
+    .first-look {
+        margin-top: 250px;
+        height: 700px;
+        background-size: cover;
+    }
+
+    .header {
+        margin: 0 auto -250px auto;
+    }
+
+    .title > h1 {
+        font-size: 5.5em;
+        margin-bottom: -20px;
+    }
+
+    .subtitle > p {
+        font-size: 2em;
+    }
+
+    .breaker-wallpaper-1,
+    .breaker-wallpaper-2,
+    .breaker-wallpaper-3,
+    .breaker-wallpaper-4 {
+        height: 200px;
+    }
+
+    .about-us {
+        flex-direction: row;
+        margin-top: 50px;
+        width: 100%;
+        height: 950px;
+    }
+
+    .components {
+        height: 850px;
+    }
+
+    .components-img {
+        position: relative;
+        top: -40%;
+        z-index: 10;
+    }
+
+    .container-full {
+        position: relative;
+        z-index: 20;
+        width: 60%;
+        height: 40%;
+    }
+
+    .container-full > h3 {
+        font-size: 58px;
+    }
+
+    .container-full > p {
+        font-size: 3em;
+    }
+
+    .flex {
+        flex-direction: row;
+    }
+
+    .container-footer {
+        display: block;
+        width: 60%;
+        height: 20%;
+        background: rgba(0, 0, 0, 0.7);
+        margin-top: 350px;
+        position: relative;
+        left: 50%;
+        top: -10%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container-footer > p {
+        letter-spacing: 5px;
+        position: relative;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+        font-size: 3em;
+        color: #3bcea8;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .contact {
+        height: 1000px;
+        background-size: cover;
+    }
+
+    .container {
+        width: 20%;
+        height: 70%;
+        margin: 100px;
+    }
+
+    .container > h3 {
+        margin-top: 10px;
+        font-size: 58px;
+        color: white;
+        text-align: center;
+    }
+
+    .container > p {
+        margin-top: 10px;
+        font-size: 20px;
+        color: white;
+        padding: 0 20px;
+    }
+
+    .mini {
+        width: 20%;
+        height: 45%;
+        margin: 50px 100px 100px 100px;
+    }
+
+    .mini > p {
+        margin-top: 10px;
+        font-size: 2em;
+        padding: 0 20px;
+    }
+
+    .copy {
+        font-size: 20px;
+    }
 }
