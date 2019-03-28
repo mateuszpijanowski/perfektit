@@ -7,7 +7,7 @@ body {
 
 .header {
     display: block;
-    margin: 100px auto -150px auto;
+    margin: 100px auto -30vw auto;
 }
 
 .first-look {
@@ -74,6 +74,7 @@ body {
 }
 
 .container > h3 {
+    letter-spacing: 1px;
     margin: 25px 10px;
     font-size: 5vh;
     color: white;
@@ -81,6 +82,7 @@ body {
 }
 
 .container > p {
+    letter-spacing: 0.7px;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -128,6 +130,7 @@ body {
 }
 
 .container-full > h3 {
+    letter-spacing: 1px;
     position: relative;
     letter-spacing: 5px;
     margin-top: 50px;
@@ -137,6 +140,7 @@ body {
 }
 
 .container-full > p {
+    letter-spacing: 0.7px;
     position: relative;
     margin-top: 10px;
     font-size: 2.5vh;
