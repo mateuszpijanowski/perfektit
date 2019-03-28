@@ -1,9 +1,7 @@
 # PerfektIT
 
 ### TODO:
-- Add animations
-- Finish RWD
-- Add icons to about container (only desktop)
+- Add navigation bar
 - Finish contact container
 - Create logo
 - Optimization code and pictures

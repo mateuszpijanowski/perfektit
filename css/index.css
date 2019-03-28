@@ -13,7 +13,7 @@ body {
 .first-look {
     width: 100%;
     height: 85vh;
-    background-image: url("assets/wallpapers/1.jpg");
+    background-image: url("../assets/wallpapers/1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 160%;
@@ -45,7 +45,7 @@ body {
     margin: 25px 0;
     width: 100%;
     height: 250px;
-    background-image: url("assets/breakers/1.jpg");
+    background-image: url("../assets/breakers/1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ body {
     align-items: center;
     width: 100%;
     height: 105vh;
-    background-image: url("assets/wallpapers/2.jpg");
+    background-image: url("../assets/wallpapers/2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -94,13 +94,19 @@ body {
 .warranty,
 .involvement {
     display: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto 75px auto;
 }
 
 .breaker-wallpaper-2 {
     margin: 25px 0;
     width: 100%;
     height: 250px;
-    background-image: url("assets/breakers/2.jpg");
+    background-image: url("../assets/breakers/2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,7 +148,7 @@ body {
 .components-img {
     width: 100%;
     height: 800px;
-    background-image: url("assets/wallpapers/3.jpg");
+    background-image: url("../assets/wallpapers/3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1000px;
@@ -152,7 +158,7 @@ body {
     margin: 25px 0;
     width: 100%;
     height: 250px;
-    background-image: url("assets/breakers/3.jpg");
+    background-image: url("../assets/breakers/3.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -162,7 +168,7 @@ body {
 .hard-drive {
     width: 100%;
     height: 105vh;
-    background-image: url("assets/wallpapers/4.jpg");
+    background-image: url("../assets/wallpapers/4.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1200px;
@@ -203,7 +209,7 @@ body {
     margin: 25px 0;
     width: 100%;
     height: 250px;
-    background-image: url("assets/breakers/4.jpg");
+    background-image: url("../assets/breakers/4.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -213,7 +219,7 @@ body {
 .contact {
     width: 100%;
     height: 105vh;
-    background-image: url("assets/wallpapers/5.jpg");
+    background-image: url("../assets/wallpapers/5.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1000px;
@@ -357,36 +363,18 @@ body {
     }
 
     .clock {
-        width: 200px;
-        height: 200px;
         display: block;
-        margin: 50px auto 75px auto;
-        background-image: url("assets/icons/clock.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: url("../assets/icons/clock.png");
     }
 
     .warranty {
-        width: 200px;
-        height: 200px;
         display: block;
-        margin: 50px auto 75px auto;
-        background-image: url("assets/icons/warranty.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: url("../assets/icons/warranty.png");
     }
 
     .involvement {
-        width: 200px;
-        height: 200px;
         display: block;
-        margin: 50px auto 75px auto;
-        background-image: url("assets/icons/involvement.png");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background-image: url("../assets/icons/involvement.png");
     }
 
     .copy {
