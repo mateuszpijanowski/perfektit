@@ -7,7 +7,7 @@ body {
 
 .header {
     display: block;
-    margin: 120px auto -300px auto;
+    margin: 100px auto -150px auto;
 }
 
 .first-look {
@@ -27,10 +27,11 @@ body {
     text-align: center;
     color: white;
     font-size: 15vw;
+    margin-bottom: 10px;
 }
 
 .subtitle {
-    width: 800px;
+    width: 70%;
     margin: auto;
 }
 
@@ -69,7 +70,7 @@ body {
     display: block;
     width: 80%;
     background: rgba(0, 0, 0, 0.7);
-    margin: 2vh auto 2vh auto;
+    margin: 2vw auto 2vw auto;
 }
 
 .container > h3 {
@@ -87,6 +88,12 @@ body {
     color: white;
     text-align: justify;
     padding: 0 20px;
+}
+
+.clock,
+.warranty,
+.involvement {
+    display: none;
 }
 
 .breaker-wallpaper-2 {
@@ -109,12 +116,13 @@ body {
 .container-full {
     display: block;
     width: 70%;
-    height: 35%;
+    height: auto !important;
     background: rgba(0, 0, 0, 0.7);
     margin: 250px auto 0 auto;
 }
 
 .container-full > h3 {
+    position: relative;
     letter-spacing: 5px;
     margin-top: 50px;
     font-size: 4vh;
@@ -123,11 +131,12 @@ body {
 }
 
 .container-full > p {
+    position: relative;
     margin-top: 10px;
     font-size: 2.5vh;
     color: white;
     text-align: center;
-    padding: 0 20px;
+    padding: 0 20px 30px 20px;
 }
 
 .components-img {
@@ -184,7 +193,7 @@ body {
     left: 50%;
     top: 5vh;
     transform: translate(-50%, -50%);
-    font-size: 2vh;
+    font-size: 4vw;
     color: #3bcea8;
     text-align: center;
     padding: 0 20px;
@@ -219,7 +228,7 @@ body {
     bottom: -95%;
 }
 
-@media (min-width: 1050px) {
+@media (min-width: 1200px) {
     .first-look {
         margin-top: 250px;
         height: 700px;
@@ -300,7 +309,7 @@ body {
         left: 50%;
         top: 45%;
         transform: translate(-50%, -50%);
-        font-size: 3em;
+        font-size: 3vw;
         color: #3bcea8;
         text-align: center;
         padding: 0 20px;
@@ -312,35 +321,72 @@ body {
     }
 
     .container {
-        width: 20%;
-        height: 70%;
-        margin: 100px;
+        width: 40%;
+        height: auto;
+        margin: 4vw;
     }
 
     .container > h3 {
         margin-top: 10px;
-        font-size: 58px;
+        font-size: 3vw;
         color: white;
         text-align: center;
     }
 
     .container > p {
         margin-top: 10px;
-        font-size: 20px;
+        font-size: 1.5vw;
         color: white;
         padding: 0 20px;
     }
 
     .mini {
-        width: 20%;
+        width: 40%;
         height: 45%;
-        margin: 50px 100px 100px 100px;
+        margin: 2vw 4vw;
+    }
+
+    .mini > h3 {
+        font-size: 3vw;
     }
 
     .mini > p {
         margin-top: 10px;
-        font-size: 2em;
+        font-size: 2vw;
         padding: 0 20px;
+    }
+
+    .clock {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 50px auto 75px auto;
+        background-image: url("assets/icons/clock.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .warranty {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 50px auto 75px auto;
+        background-image: url("assets/icons/warranty.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .involvement {
+        width: 200px;
+        height: 200px;
+        display: block;
+        margin: 50px auto 75px auto;
+        background-image: url("assets/icons/involvement.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .copy {

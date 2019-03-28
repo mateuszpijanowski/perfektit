@@ -1,4 +1,4 @@
-# PeftektIT
+# PerfektIT
 
 ### TODO:
 - Add animations
