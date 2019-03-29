@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
             duration: 1200
         });
 
-        sr.reveal('.container-full, .components-img', {
+        sr.reveal('.container-full, .components-img, .form-contact', {
             delay: 500,
             reset: true,
             distance: '50px',

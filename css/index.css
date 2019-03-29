@@ -5,6 +5,16 @@ body {
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+a {
+    color: #999;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    opacity: 1;
+}
+
 .header {
     display: block;
     margin: 100px auto -30vw auto;
@@ -222,7 +232,7 @@ body {
 
 .contact {
     width: 100%;
-    height: 105vh;
+    height: auto;
     background-image: url("../assets/wallpapers/5.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -230,12 +240,77 @@ body {
 }
 
 .copy {
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     text-align: center;
-    margin: 20px auto;
-    color: #999999;
+    margin: 5px 0 50px 0;
+    color: #999;
+    opacity: 0.8;
     position: relative;
     bottom: -95%;
+}
+
+.form-contact {
+    display: block;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 200px 0 200px 0;
+    padding: 25px 10px 25px 10px;
+}
+
+.form-contact > h3 {
+    letter-spacing: 1px;
+    margin: 0 auto 25px auto;
+    font-size: 6vw;
+    color: white;
+    text-align: center;
+}
+
+.form-contact > p {
+    letter-spacing: 0.7px;
+    margin: 0;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+    padding: 0;
+}
+
+input,
+textarea {
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    display: block;
+	border: 1px solid rgba(0, 0, 0, 0.16);
+    height: auto;
+    padding: 30px 30px;
+    width: 80% !important;
+    border-radius: 3px;
+	margin: 30px auto;
+	font-size: 4.5vw;
+}
+
+textarea {
+    text-align: justify !important;
+    display: block;
+	width: 80%;
+}
+
+input[type=submit] {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    font-size: 4.5vw;
+    display: block;
+	margin: 20px auto 60px auto;
+	background-color: #4CAF50;
+	height: auto;
+	width: 30vw !important;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+input[type=submit]:hover {
+    background-color: #c62f43;
 }
 
 @media (min-width: 1200px) {
@@ -325,11 +400,6 @@ body {
         padding: 0 20px;
     }
 
-    .contact {
-        height: 1000px;
-        background-size: cover;
-    }
-
     .container {
         width: 40%;
         height: auto;
@@ -381,7 +451,43 @@ body {
         background-image: url("../assets/icons/involvement.png");
     }
 
+    .contact {
+        height: auto;
+        background-size: cover;
+    }
+
     .copy {
-        font-size: 20px;
+        font-size: 1vw;
+        padding-bottom: 10px;
+        margin-bottom: 0;
+    }
+
+    .form-contact {
+        width: 35%;
+        margin: 60px 0 100px 0;
+        padding: 25px 10px 40px 10px;
+    }
+
+    .form-contact > h3 {
+        font-size: 2.5vw;
+    }
+
+    .form-contact > p {
+        font-size: 1.5vw;
+    }
+
+    input,
+    textarea {
+        padding: 15px 15px;
+    	margin: 20px auto 20px auto;
+    	font-size: 1.5vw;
+    }
+    textarea {
+    	width: 80%;
+    }
+    input[type=submit] {
+        font-size: 1.5vw;
+    	margin: 20px auto 40px auto;
+    	width: 150px !important;
     }
 }

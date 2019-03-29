@@ -2,6 +2,6 @@
 
 ### TODO:
 - Add navigation bar
-- Finish contact container
+- Create back-end e-mail system
 - Create logo
 - Optimization code and pictures
