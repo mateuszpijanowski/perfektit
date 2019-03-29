@@ -48,7 +48,7 @@ a:hover {
 .subtitle > p {
     text-align: center;
     color: white;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
 .breaker-wallpaper-1 {
@@ -56,7 +56,7 @@ a:hover {
     width: 100%;
     height: 250px;
     background-image: url("../assets/breakers/1.jpg");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,7 +119,7 @@ a:hover {
     width: 100%;
     height: 250px;
     background-image: url("../assets/breakers/2.jpg");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +127,7 @@ a:hover {
 
 .components {
     width: 100%;
-    height: 105vh;
+    height: 95vh;
     margin: auto;
 }
 
@@ -173,7 +173,7 @@ a:hover {
     width: 100%;
     height: 250px;
     background-image: url("../assets/breakers/3.jpg");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -224,7 +224,7 @@ a:hover {
     width: 100%;
     height: 250px;
     background-image: url("../assets/breakers/4.jpg");
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -236,7 +236,7 @@ a:hover {
     background-image: url("../assets/wallpapers/5.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1000px;
+    background-size: cover;
 }
 
 .copy {
@@ -338,6 +338,7 @@ input[type=submit]:hover {
     .breaker-wallpaper-3,
     .breaker-wallpaper-4 {
         height: 200px;
+        background-attachment: fixed;
     }
 
     .about-us {
@@ -449,11 +450,6 @@ input[type=submit]:hover {
     .involvement {
         display: block;
         background-image: url("../assets/icons/involvement.png");
-    }
-
-    .contact {
-        height: auto;
-        background-size: cover;
     }
 
     .copy {
