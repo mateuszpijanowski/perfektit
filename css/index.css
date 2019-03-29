@@ -313,7 +313,7 @@ input[type=submit]:hover {
     background-color: #c62f43;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
     .first-look {
         margin-top: 250px;
         height: 700px;
